@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Fabiana';
+    src: url(/font/Fabiana.ttf);
+}
+@font-face {
+    font-family: 'Huglove';
+    src: url(/font/Huglove.otf);
+}
+@font-face {
+    font-family: 'Honey';
+    src: url(/font/Honey.otf);
+}
+@font-face {
+    font-family: 'coolvetica';
+    src: url(/font/coolvetica.otf);
+}
+
+@font-face {
+	font-family: 'Century';
+	src: url(/font/Century.ttf);
+}
+
+
+html {
+	font-size: 62.5%;
+	font-family: 'Century';
+	scroll-behavior: smooth;
+	background-color: #CC81B3;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contenido {
+	max-width: 120rem;
+	margin: 0 auto;
+}
+
+
+/* ********************************** */
+/*         BANER ROSA                 */
+/* ********************************** */
+
+.baner-rosa {
+	background-color: #ffa9e4;
+}
+
+.baner1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 0;
+}
+
+.logo{
+    max-width: 120px;
+    display: flex;
+    gap: 0.5rem;
+	margin-left: 1rem;
+}
+
+.contenido-user {
+	display: flex;
+	gap: 1rem;
+	cursor: pointer;
+}
+
+.contenido-user .fa-user {
+	color: #fff;
+	padding-right: 2.5rem;
+}
+
+.contenido-shopping-cart {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+	font-size: 1.2rem;
+	font-family: 'Century';
+}
+
+/* ********************************** */
+/*               PORTADA              */
+/* ********************************** */
+.banner {
+	background-image: linear-gradient(100deg, #000000a5, #ff2eee20), url(/img/portada_Bixxidu4.png);
+	width: 100%;
+	height: 75rem;
+	background-size: cover;
+	background-position: center;
+}
+
+.content-banner {
+	max-width: 90rem;
+	margin: 0 auto;
+	padding: 28rem 0;
+}
+
+.content-banner h1 { 
+	color: #000;
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	font-weight: 800;
+}
+
+.content-banner h2 {
+	color: #fff;
+	font-size: 5rem;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+.content-banner button {
+    border: none;
+	margin-top: 2rem;
+	text-decoration: none;
+	color: #fff;
+	background-color: #e786c9;
+	display: inline-block;
+	padding: 1rem 3rem;
+	border-radius: 3rem;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #c950a3;
+}
+
+.content-banner a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: 500;
+}

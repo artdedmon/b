@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Fabiana';
+    src: url(/font/Fabiana.ttf);
+}
+@font-face {
+    font-family: 'Huglove';
+    src: url(/font/Huglove.otf);
+}
+@font-face {
+    font-family: 'Honey';
+    src: url(/font/Honey.otf);
+}
+@font-face {
+    font-family: 'coolvetica';
+    src: url(/font/coolvetica.otf);
+}
+
+@font-face {
+	font-family: 'Century';
+	src: url(/font/Century.ttf);
+}
+
+
+html {
+	font-size: 62.5%;
+	font-family: 'Century';
+	scroll-behavior: smooth;
+	background-color: #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contenido {
+	max-width: 120rem;
+	margin: 0 auto;
+}
+
+
+/* ********************************** */
+/*         BANER ROSA                 */
+/* ********************************** */
+
+.baner-rosa {
+	background-color: #ffa9e4;
+}
+
+.baner1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 0;
+}
+
+.logo{
+    max-width: 120px;
+    display: flex;
+    gap: 0.5rem;
+	margin-left: 1rem;
+}
+
+.contenido-user {
+	display: flex;
+	gap: 1rem;
+	cursor: pointer;
+}
+
+.contenido-user .fa-user {
+	color: #fff;
+	padding-right: 2.5rem;
+}
+
+.contenido-shopping-cart {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+	font-size: 1.2rem;
+	font-family: 'Century';
+}
+
+
+@font-face {
+    font-family: 'Fabiana';
+    src: url(/font/Fabiana.ttf);
+}
+
+@font-face {
+    font-family: 'Huglove';
+    src: url(/font/Huglove.otf);
+}
+
+@font-face {
+    font-family: 'Honey';
+    src: url(/font/Honey.otf);
+}
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url(/font/coolvetica.otf);
+}
+
+@font-face {
+    font-family: 'Century';
+    src: url(/font/Century.ttf);
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Century';
+    scroll-behavior: smooth;
+    background-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenido {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/* ********************************** */
+/*         BANER ROSA                 */
+/* ********************************** */
+
+.baner-rosa {
+    background-color: #ffa9e4;
+}
+
+.baner1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.logo {
+    max-width: 120px;
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 1rem;
+}
+
+.contenido-user {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    align-items: center;
+}
+
+.contenido-user .fa-user {
+    color: #fff;
+    padding-right: 2.5rem;
+}
+
+/* ********************************** */
+/*          CONTACTO FORM             */
+/* ********************************** */
+
+#contacto {
+    background-color: #fff;
+    padding: 5rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.titulo-seccion {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffa9e4;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: 'Century', sans-serif;
+}
+
+.contenedor-form {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-form {
+    width: 100%;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.input-mitad,
+.input-full {
+    width: calc(50% - 1rem);
+    padding: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    font-family: 'Century', sans-serif;
+    transition: border-color 0.3s ease-in-out;
+    margin-bottom: 1rem;
+}
+
+.input-full {
+    width: 100%;
+}
+
+.input-mitad:focus,
+.input-full:focus {
+    border-color: #ffa9e4;
+    outline: none;
+}
+
+textarea.input-full {
+    resize: vertical;
+    min-height: 15rem;
+}
+
+.btn-enviar {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #ffa9e4;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-enviar:hover {
+    background-color: #c950a3;
+}
